@@ -1,0 +1,4 @@
+$if session['user'] == None:
+    <h1>Welcome CodeWizards</h1>
+$else:
+    <h1>Welcome $session['user']['fullname'] </h1>
